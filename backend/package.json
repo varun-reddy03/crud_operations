@@ -1,0 +1,37 @@
+{
+  "name": "my-app",
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "test": "mocha './tests/*.spec.js'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/formbody": "7.4.0",
+    "bcrypt": "^5.1.1",
+    "chai": "^4.2.0",
+    "fastify": "^4.28.1",
+    "fastify-multer": "2.0.3",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^8.2.1",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "sinon": "^18.0.0",
+    "supertest": "^7.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "sequelize-cli": "^6.6.2"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC"
+}
