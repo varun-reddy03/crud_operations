@@ -7,6 +7,7 @@ const { User } = require('../models');
 const {parseExcel} = require('../services/excelService')
 
 async function uploadExcelFile(request, reply) {
+  console.log("=================================")
   const file = request.file;
    try {
     if(validateExcelFile(file.mimetype)){
